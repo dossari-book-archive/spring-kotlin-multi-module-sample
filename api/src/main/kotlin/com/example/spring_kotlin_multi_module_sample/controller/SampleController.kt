@@ -1,5 +1,7 @@
-package com.example.spring_kotlin_multi_module_sample
+package com.example.spring_kotlin_multi_module_sample.controller
 
+import com.example.spring_kotlin_multi_module_sample.data.SampleEntity
+import com.example.spring_kotlin_multi_module_sample.data.SampleRepository
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.validation.annotation.Validated
 import org.springframework.web.bind.annotation.GetMapping
