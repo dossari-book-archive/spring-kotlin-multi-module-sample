@@ -3,6 +3,7 @@ plugins {
     kotlin("plugin.spring")
 }
 dependencies {
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
     implementation(project(":core"))
     implementation(project(":data"))
     implementation("org.springframework.boot:spring-boot-starter-web")
